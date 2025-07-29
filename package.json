@@ -1,0 +1,17 @@
+{
+  "name": "abc123",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jthomazinho/123ABC.git",
+  "author": "Joao Thomazinho <jthomazinho@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^24.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
+  }
+}
