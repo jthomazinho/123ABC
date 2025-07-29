@@ -79,6 +79,14 @@ The project includes organized use cases in the `src/usecases/` directory:
 - URL updates and tag management
 - Text search in descriptions
 
+### LeetCode Examples (`src/usecases/leetcodeExamples.ts`)
+- 25 main LeetCode problems organized by categories
+- Arrays & Strings, Linked Lists, Trees, Dynamic Programming
+- Graphs, Heaps, Binary Search, Sliding Window
+- Backtracking, Greedy, Math, String Manipulation
+- Sorting, Hash Tables, Stacks & Queues, Recursion
+- Bit Manipulation, Design Patterns, Advanced Algorithms
+
 ## 🔍 Available Queries
 
 ### Find all URLs
@@ -132,7 +140,8 @@ src/
 ├── usecases/
 │   ├── index.ts       # Use cases exports
 │   ├── basicExamples.ts    # Basic URL operations
-│   └── advancedExamples.ts # Advanced URL operations
+│   ├── advancedExamples.ts # Advanced URL operations
+│   └── leetcodeExamples.ts # 25 main LeetCode problems
 └── index.ts           # Main entry point
 ```
 
@@ -143,6 +152,7 @@ src/
 - `yarn advanced`: Runs advanced URL operations examples
 - `yarn examples`: Runs advanced examples (alias for advanced)
 - `yarn all`: Runs all examples sequentially
+- `yarn leetcode`: Runs LeetCode examples demonstration
 - `yarn build`: Compiles TypeScript
 - `yarn install`: Installs dependencies
 

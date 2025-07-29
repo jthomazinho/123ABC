@@ -18,6 +18,7 @@
     "examples": "ts-node src/usecases/advancedExamples.ts",
     "basic": "ts-node src/usecases/basicExamples.ts",
     "advanced": "ts-node src/usecases/advancedExamples.ts",
-    "all": "ts-node src/usecases/index.ts"
+    "all": "ts-node src/usecases/index.ts",
+    "leetcode": "ts-node src/usecases/leetcodeDemo.ts"
   }
 }
