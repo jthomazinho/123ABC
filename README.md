@@ -87,6 +87,33 @@ The project includes organized use cases in the `src/usecases/` directory:
 - Sorting, Hash Tables, Stacks & Queues, Recursion
 - Bit Manipulation, Design Patterns, Advanced Algorithms
 
+## 🧪 Testing
+
+The project includes comprehensive test coverage using Jest:
+
+### Test Structure
+- **Unit Tests**: Test individual functions and modules
+- **Integration Tests**: Test database connections and operations
+- **Mock Tests**: Test error handling and edge cases
+
+### Test Categories
+- **Index Tests**: Test main application entry point
+- **Basic Examples Tests**: Test URL model basic operations
+- **Advanced Examples Tests**: Test complex database queries
+- **LeetCode Examples Tests**: Test all 25 LeetCode algorithms
+
+### Running Tests
+```bash
+# Run all tests
+yarn test
+
+# Run tests in watch mode
+yarn test:watch
+
+# Run tests with coverage report
+yarn test:coverage
+```
+
 ## 🔍 Available Queries
 
 ### Find all URLs
@@ -143,6 +170,15 @@ src/
 │   ├── advancedExamples.ts # Advanced URL operations
 │   └── leetcodeExamples.ts # 25 main LeetCode problems
 └── index.ts           # Main entry point
+
+tests/
+├── setup.ts           # Test setup and mocks
+├── index.test.ts      # Tests for main entry point
+└── usecases/
+    ├── basicExamples.test.ts    # Tests for basic examples
+    ├── advancedExamples.test.ts # Tests for advanced examples
+    ├── leetcodeExamples.test.ts # Tests for LeetCode examples
+    └── index.test.ts            # Tests for use cases index
 ```
 
 ## 🚀 Available Scripts
@@ -153,6 +189,9 @@ src/
 - `yarn examples`: Runs advanced examples (alias for advanced)
 - `yarn all`: Runs all examples sequentially
 - `yarn leetcode`: Runs LeetCode examples demonstration
+- `yarn test`: Runs all tests
+- `yarn test:watch`: Runs tests in watch mode
+- `yarn test:coverage`: Runs tests with coverage report
 - `yarn build`: Compiles TypeScript
 - `yarn install`: Installs dependencies
 

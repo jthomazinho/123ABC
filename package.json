@@ -19,6 +19,14 @@
     "basic": "ts-node src/usecases/basicExamples.ts",
     "advanced": "ts-node src/usecases/advancedExamples.ts",
     "all": "ts-node src/usecases/index.ts",
-    "leetcode": "ts-node src/usecases/leetcodeDemo.ts"
+    "leetcode": "ts-node src/usecases/leetcodeDemo.ts",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.8",
+    "jest": "^28.1.3",
+    "ts-jest": "^28.0.8"
   }
 }

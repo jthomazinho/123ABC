@@ -1,6 +1,6 @@
 import { runBasicExamples } from './usecases';
 
-async function main() {
+export async function main() {
   try {
     console.log('🎯 URL Management System - Basic Examples\n');
     await runBasicExamples();
