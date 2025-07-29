@@ -6,12 +6,18 @@
   "author": "Joao Thomazinho <jthomazinho@hotmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@types/mongoose": "^5.11.97",
     "@types/node": "^24.1.0",
+    "mongoose": "^8.16.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   },
   "scripts": {
     "build": "tsc",
-    "start": "ts-node src/index.ts"
+    "start": "ts-node src/index.ts",
+    "examples": "ts-node src/usecases/advancedExamples.ts",
+    "basic": "ts-node src/usecases/basicExamples.ts",
+    "advanced": "ts-node src/usecases/advancedExamples.ts",
+    "all": "ts-node src/usecases/index.ts"
   }
 }
